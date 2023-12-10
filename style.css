@@ -579,27 +579,27 @@ input[name="toggle"] {
 /* AMOUNT */
 
 .ui-component-card--pricing-amount-1::before {
-    content: "$5";
+    content: "15 000 ₽";
 }
 
 #ui-component-toggle__yearly:checked~div .ui-component-card--pricing-amount-1::before {
-    content: "$3";
+    content: "- ₽";
 }
 
 .ui-component-card--pricing-amount-2::before {
-    content: "$15";
+    content: "400 000 ₽";
 }
 
 #ui-component-toggle__yearly:checked~div .ui-component-card--pricing-amount-2::before {
-    content: "$13";
+    content: "- ₽";
 }
 
 .ui-component-card--pricing-amount-3::before {
-    content: "$25";
+    content: "900 000 ₽";
 }
 
 #ui-component-toggle__yearly:checked~div .ui-component-card--pricing-amount-3::before {
-    content: "$23";
+    content: "- ₽";
 }
 
 /* LIST */

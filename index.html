@@ -5,9 +5,9 @@
     <!-- META -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="uisual" content="Made with Uisual (uisual.com)">
-    <meta name="author" content="#">
-    <meta name="description" content="#">
+    <!-- <meta name="uisual" content="Made with Uisual (uisual.com)"> -->
+    <!-- <meta name="author" content="#"> -->
+    <meta name="description" content="Цифровизация и автоматизация бизнеса">
     <meta name="referrer" content="unsafe-url">
     <meta name="robots" content="index, follow">
     <!-- SPEED -->
@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <!-- LINK -->
-    <link rel="me" href="#">
+    <link rel="me" href="@pileskyd">
     <link rel="canonical" href="#">
     <link rel="icon" type="image/png" href="#" sizes="48x48">
     <!-- PERFORMANCE -->
@@ -35,35 +35,38 @@
             <div class="ui-section-header__layout ui-layout-flex">
                 <!-- LOGO -->
                 <a href="#" role="link" aria-label="#" class="ui-section-header--logo">
-                    <img src="/assets/logo-char-black.svg" alt="" width="60rem">
+                    <img src="/assets/logo-char-black.svg" alt="" width="36px">
                 </a>
                 <!-- HAMBURGER -->
                 <input type="checkbox" id="ui-section-header--menu-id">
                 <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
                 <!-- MENU -->
                 <nav role="navigation" class="ui-section-header--nav ui-layout-flex">
-                    <a href="#" role="link" aria-label="#" class="ui-section-header--nav-link">Features</a>
-                    <a href="#" role="link" aria-label="#" class="ui-section-header--nav-link">Pricing</a>
-                    <a href="#" role="link" aria-label="#" class="ui-section-header--nav-link">About</a>
+                    <a href="/#index" role="link" aria-label="Главная" class="ui-section-header--nav-link">Главная</a>
+                    <a href="/#pricing" role="link" aria-label="Услуги" class="ui-section-header--nav-link">Услуги</a>
+                    <a href="/props.html" role="link" aria-label="Реквизиты"
+                        class="ui-section-header--nav-link">Реквизиты</a>
                 </nav>
             </div>
         </div>
     </header>
     <main role="main">
-        <section class="ui-section-hero">
+        <section class="ui-section-hero" id="index">
             <div class="ui-layout-container">
                 <div class="ui-section-hero__layout ui-layout-grid ui-layout-grid-2">
                     <!-- COPYWRITING -->
                     <div>
-                        <h1>Design better.</h1>
-                        <p class="ui-text-intro">Lorem ipsum dolor sit amet, consectetur lit, enimad eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua ullamco laboris nisi.</p>
+                        <h1>Сложные IT системы
+                            для вашего бизнеса</h1>
+                        <p class="ui-text-intro">Мы специализируемся на цифровизации и оптимизации бизнес-процессов,
+                            чтобы сделать вашу работу более эффективной и
+                            удобной</p>
                         <!-- CTA -->
                         <div class="ui-component-cta ui-layout-flex">
                             <a href="#" role="link" aria-label="#"
-                                class="ui-component-button ui-component-button-normal ui-component-button-primary">Get
-                                Started for Free</a>
-                            <p class="ui-text-note"><small>30 days free trial.</small></p>
+                                class="ui-component-button ui-component-button-normal ui-component-button-primary">Свяжись
+                                с нами</a>
+                            <p class="ui-text-note"><small>Бесплатная консультация</small></p>
                         </div>
                     </div>
                     <!-- IMAGE -->
@@ -72,7 +75,7 @@
                 </div>
             </div>
         </section>
-        <section class="ui-section-customer">
+        <section class="ui-section-customer" hidden>
             <div class="ui-layout-container">
                 <div class="ui-section-customer__layout ui-layout-flex">
                     <img src="https://res.cloudinary.com/uisual/image/upload/assets/logos/facebook.svg" alt="#"
@@ -132,7 +135,7 @@
                 </div>
             </div>
         </section>
-        <section class="ui-section-pricing">
+        <section class="ui-section-pricing" id="pricing">
             <div class="ui-layout-container">
                 <h2>Fair Prices</h2>
                 <p class="ui-text-intro">Lorem ipsum dolor sit amet.</p>
@@ -151,8 +154,8 @@
                         <!-- AMOUNT -->
                         <div class="ui-component-card--pricing-price">
                             <span class="ui-component-card--pricing-amount ui-component-card--pricing-amount-1"></span>
-                            <span>/</span>
-                            <span>month</span>
+                            <!-- <span>/</span>
+                            <span>month</span> -->
                         </div>
                         <span><small>Perfect for early-stage startups.</small></span>
                         <!-- LIST -->
@@ -170,8 +173,8 @@
                         <!-- AMOUNT -->
                         <div class="ui-component-card--pricing-price">
                             <span class="ui-component-card--pricing-amount ui-component-card--pricing-amount-2"></span>
-                            <span>/</span>
-                            <span>month</span>
+                            <!-- <span>/</span>
+                            <span>month</span> -->
                         </div>
                         <span><small>Perfect for early-stage startups.</small></span>
                         <!-- LIST -->
@@ -189,8 +192,8 @@
                         <!-- AMOUNT -->
                         <div class="ui-component-card--pricing-price">
                             <span class="ui-component-card--pricing-amount ui-component-card--pricing-amount-3"></span>
-                            <span>/</span>
-                            <span>month</span>
+                            <!-- <span>/</span>
+                            <span>month</span> -->
                         </div>
                         <span><small>Perfect for early-stage startups.</small></span>
                         <!-- LIST -->
@@ -205,7 +208,7 @@
                     </div>
                 </div>
                 <!-- NOTE -->
-                <p>Have questions? <a href="#" role="link" aria-label="#">Contact us</a>.</p>
+                <p>Остались вопросы? <a href="#" role="link" aria-label="#">Свяжись с нами</a>.</p>
             </div>
         </section>
         <section class="ui-section-testimonial">
@@ -233,14 +236,14 @@
         <section class="ui-section-close">
             <div class="ui-layout-container">
                 <div class="ui-layout-column-6 ui-layout-column-center">
-                    <h2>Ready to start?</h2>
+                    <h2>Готовы начать?</h2>
                     <p class="ui-text-intro">Lorem ipsum dolor sit amet consectetur.</p>
                     <!-- CTA -->
                     <div class="ui-component-cta ui-layout-flex">
                         <a href="#" role="link" aria-label="#"
-                            class="ui-component-button ui-component-button-normal ui-component-button-primary">Get
-                            Started for Free</a>
-                        <p class="ui-text-note"><small>30 days free trial.</small></p>
+                            class="ui-component-button ui-component-button-normal ui-component-button-primary">Свяжись с
+                            нами</a>
+                        <p class="ui-text-note"><small>Бесплатная консультация</small></p>
                     </div>
                 </div>
             </div>
