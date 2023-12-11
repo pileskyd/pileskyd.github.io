@@ -522,7 +522,7 @@ input[name="toggle"] {
 
 .ui-section-feature {
     padding-bottom: 5rem;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
 }
 
 .ui-section-feature__layout {
@@ -536,6 +536,10 @@ input[name="toggle"] {
 .ui-section-feature__layout:last-of-type {
     margin-top: 5rem;
 }
+
+/* .ui-section-feature__layout:not(:first-child) {
+    margin-top: 5rem;
+} */
 
 /*--------------------------------------------------------------
 |
@@ -1069,12 +1073,16 @@ input[name="toggle"] {
 
     .ui-section-feature {
         padding-bottom: 7.5rem;
-        padding-top: 7.5rem;
+        /* padding-top: 7.5rem; */
     }
 
     .ui-section-feature__layout:last-of-type {
         margin-top: 7.5rem;
     }
+
+    /* .ui-section-feature__layout:not(:first-child) {
+        margin-top: 7.5rem;
+    } */
 
     /* LIST */
 
